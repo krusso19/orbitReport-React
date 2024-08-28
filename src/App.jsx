@@ -1,7 +1,7 @@
 import Buttons from "./components/Buttons";
 import Table from "./components/Table";
-import Banner from "./components/Banner";
-import {useState} from 'react';
+import Banner from "./components/Banner"; 
+import {useState} from 'react'; //React part 3 react and the DOM
 import satData from "./components/satData.jsx";
 
 
@@ -20,9 +20,9 @@ function App() {
     <div>
       <Banner />
       <Buttons 
-        filterByType={filterByType}
-        setSat={setSat}
-        displaySats={displaySats}
+        filterByType={filterByType} //task3
+        setSat={setSat} //task 3
+        displaySats={displaySats} //task 3
       />
       <Table sat={sat}/>
     </div>
